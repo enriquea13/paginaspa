@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+  /*border: 1px red solid;*/
+}
+
+.margen {
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.primer_contenedor {
+  border-top: 10px solid #ff3281;
+  background-color: #fff9f1;
+}
+
+.logo {
+  width: 210px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 85px;
+}
+
+.redes {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 560px;
+}
+
+.redes a {
+  margin-left: 15px;
+}
+
+.limpiar {
+  clear: both;
+}
+
+.menu {
+  border: 3px solid black;
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin: 75px;
+}
+
+.contenedor_imagen  {
+  background-image: url(imagenes/fondopiedras.jpg);
+  height: 400px;
+  text-align: center;
+  color: white;
+  padding: 90px;
+}
+
+.contenedor_imagen h2 {
+  font-size: 30px;
+}
+
+.contenedor_imagen p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn_rosa {
+  border: 2px solid #ff3281;
+  background-color: #ff3281;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.btn_transparente {
+  border: 2px solid #ff3281;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.contenedor_imagen a {
+  margin: 10px;
+}
+
+.contenedor_tres {
+  text-align: center;
+}
+
+.contenedor_productos {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 35px;
+  text-align: left;
+  
+}
+
+.imagen_productos {
+  width: 400px;
+  height: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.imagen_productos img {
+  height: 230px;
+}
+
+.contenedor_cuatro {
+  text-align: center;
+  background-color: #fff9f1;
+}
+
+.imagen_puestos {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.imagen_puestos img{
+  border-radius: 10px;
+  height: 350px;
+}
+
+.contenedor_puestos {
+  display: inline-block;
+  text-align: justify;
+  width: 500px;
+  vertical-align: top;
+}
+
+.contenedor_cinco {
+  text-align: center;
+}
+
+.formulario {
+  display: inline-block;
+  width: 450px;
+  padding: 10px 30px;
+  text-align: left;
+}
+
+span {
+  color: #ff3281;
+  font-weight: bold;
+}
+
+form {
+  border: 3px solid #ff3281;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+}
+
+.textos {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px #cccccc solid;
+  width: 350px;
+  font-size: 14px;
+}
+
+.btn_negro {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 150px;
+  cursor: pointer;
+}
+
+.video {
+  display: inline-block;
+  width: 540px;
+  vertical-align: top;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.video iframe {
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.contenedor_nombre {
+  height: 220px;
+  background-color: #fff9f1;
+  border-bottom: 10px solid #ff3281; 
+}
+
+.logo2 {
+  width: 210px;
+  text-align: center;
+  display: inline-block;
+  padding: 25px 10px;
+  margin-left: 70px;
+  vertical-align: middle;
+}
+
+.nombre {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  margin-left: 400px;
+}
+
